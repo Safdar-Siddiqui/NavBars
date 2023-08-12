@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:rgba(180, 220, 221, 0.5);
+}
+
+#navBar1{
+    width: 90%;
+    background-color: rgba(0,0,0,0.9);
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5%;
+    padding-block: 10px;
+    box-shadow: 0px 5px 10px rgba(0,0,0, 0.6)
+}
+
+#navBarLogo{
+    font-weight: 600;
+}
+
+#navBarMenu{
+    display: flex;
+    align-items: center;
+}
+#navBarMenu ul li{ 
+    list-style-type: none;
+    float: left;
+}
+
+
+.marginLeft{
+    margin-left: 300px;
+}
+#navBarMenu li a{
+    text-decoration: none; 
+    color: #fff;
+    list-style-type: none;
+    float: left;
+    padding: 5px 15px;
+}
+
+.contactStyle{
+    background-color: rgb(52, 134, 136);
+    border-radius: 50px;
+    padding: 5px 15px;
+    width: fit-content;
+}
+
+#navBarContact a{
+    text-decoration: none; 
+    color: #fff;
+    list-style-type: none;
+    float: left;
+    margin: 5px 10px;
+}
+
+
+#navBar2{
+    width: 90%;
+    background-color: rgba(0,0,0,0.9);
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5%;
+    padding-block: 10px;
+    box-shadow: 0px 5px 10px rgba(0,0,0, 0.6)
+}
+
+#navBar3{
+    width: 90%;
+    background-color: rgba(0,0,0,0.9);
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5%;
+    padding-block: 10px;
+    box-shadow: 0px 5px 10px rgba(0,0,0, 0.6)
+}
+
+
+/* Link Buttons to other files */
+
+.buttons{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 25px;
+    padding-inline: 20%;
+}
+
+.buttons a{
+    padding: 5px 10px;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.buttons a:hover{
+    background-color: rgb(52, 134, 136);
+}
