@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: lightgray; */
+    color: #000;
+    /* background-color:rgba(180, 220, 221, 0.5); */
+}
+
+li{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    font-size: 15px;
+    /* background-color: rgb(166, 110, 27); */
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 25px;
+}
+
+header{
+    width: 80%;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2%;
+}
+
+.logoSize{
+    width: 100px;
+    height: 35px;
+}
+
+
+#nav1{
+    background-color: #000;
+    width: 80%;
+    padding-block: 1%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2%;
+    margin-bottom: 1%;
+}
+
+#nav1 #nav1Left{
+    width: 80%;
+    /* background-color:violet; */
+    display: flex;
+    align-items: center;
+}
+#nav1 #nav1Left #logo{
+    width: auto;
+    height: auto;
+    /* background-color:rgb(6, 6, 238); */
+    display: flex;
+    align-items: center;
+}
+
+#nav1 #nav1Left #menu{
+    width: 75%;
+    padding-block: 1%;
+    margin-left: 2%;
+}
+
+#nav1 #nav1Right{
+    width: 30%;
+    /* background-color: rgb(71, 49, 71); */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#nav1 #nav1Right button{
+    width: 6vw;
+    height: 35px;
+    border-radius: 3px;
+    background-color: rgb(237,59,89);
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+#nav1 #nav1Right #buyNow{
+    background-color: #fff;
+    color: teal;
+    border: 1px solid teal;
+}
+
+
+
+
+/* Nav 2 */
+#nav2{
+    background-color:rgb(68,74,246);
+    width: 80%;
+    padding-block: 1%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2%;
+    margin-bottom: 1%
+}
+
+#nav2 #nav2Left{
+    width: 40%;
+}
+
+#nav2 #nav2Right{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+#nav2 #nav2Right #menu{
+    width: 65%;
+    padding-block: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav2 #nav2Right #social{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    padding-block: 3%;
+}
+
+#nav2 #nav2Right #social img{
+    width: 22px;
+    height: 22px;
+}
+
+
+
+/* Nav 3 */
+
+#nav3{
+    background-color:rgb(90,202,167);
+    width: 80%;
+    padding-block: 1%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2%;
+    margin-bottom: 1%
+}
+
+#nav3 #nav3Left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+#nav3 #nav3Right{
+    width: 45%;
+    display: flex;
+    margin-left: 15%;
+    align-items: center;
+}
+
+#nav3 #nav3Right #menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+#nav3 #nav3Right #icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 5%;
+}
+
+#signinBtn{
+    background: url(./images/person-fill.svg) no-repeat;
+    background-size: 10px 10px;
+    background-position-y: center;
+    background-position-x: 15px;
+    background-color: blue;
+    color: #fff;
+    padding: 10px 27px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+
+
+
+/* Nav 4 */
+
+#nav4{
+    background-color:rgb(237,59,89);
+    width: 80%;
+    padding-block: 1%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2%;
+    margin-bottom: 1%
+}
+
+#fb{
+    background: url(./images/facebook-3-64.png) no-repeat;
+    background-size: 18px 15px;
+    background-position-x: 5px;
+    background-position-y: center;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 5px 30px;
+    background-color: inherit;
+}
+
+#twitter{
+    background: url(./images/twitter-3-64.png) no-repeat;
+    background-size: 18px 15px;
+    background-position-x: 5px;
+    background-position-y: center;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 5px 30px;
+    background-color: inherit;
+}
+
+#insta{
+    background: url(./images/pngwing.com\ \(5\).png) no-repeat;
+    background-size: 18px 15px;
+    background-position-x: 5px;
+    background-position-y: center;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 5px 30px;
+    background-color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+/* Link Buttons to other files */
+
+.buttons{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 25px;
+    padding-inline: 20%;
+}
+
+.buttons a{
+    padding: 5px 10px;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.buttons a:hover{
+    background-color: rgb(52, 134, 136);
+}

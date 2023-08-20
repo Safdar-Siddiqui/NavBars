@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightgray;
+    /* background-color:rgba(180, 220, 221, 0.5); */
+}
+
+#navBar1{
+    width: 80%;
+    background-color: rgb(0,151,136);
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2%;
+    padding-block: 5px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    /* box-shadow: 0px 5px 10px rgba(0,0,0, 0.6) */
+}
+
+#navbarLeft{
+    display: flex;
+    align-items: center;
+}
+
+#navbarRight form input{
+    /* background-color: rgb(0,151,136); */
+    background: transparent;
+    font-size: 16px;
+    color:white;
+    border: none;
+    border-bottom: 1px solid #fff;
+    /* padding-bottom: 4px; */
+}
+::placeholder{
+    color: #fff;
+}
+
+#navBar6 input[type=search]::placeholder{
+    color: #000;
+}
+#navBar6 input[type=search]{
+    border-bottom: 1px solid #000;
+}
+
+#navBarLogo{
+    font-weight: 600;
+}
+
+#navBarMenu{
+    display: flex;
+    align-items: center;
+
+}
+#navBarMenu ul li{ 
+    list-style-type: none;
+    float: left;
+}
+
+
+.marginLeft{
+    margin-left: 300px;
+}
+#navBarMenu li a{
+    text-decoration: none; 
+    color: #fff;
+    list-style-type: none;
+    float: left;
+    padding: 5px 12px;
+    
+}
+
+.contactStyle{
+    background-color: rgb(52, 134, 136);
+    border-radius: 50px;
+    padding: 5px 15px;
+    width: fit-content;
+}
+
+#navBarContact a{
+    text-decoration: none; 
+    color: #fff;
+    list-style-type: none;
+    float: left;
+    margin: 5px 10px;
+}
+
+
+#navBar2{
+    width: 80%;
+    background-color: rgb(137,14,79);
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2%;
+    padding-block: 5px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    /* box-shadow: 0px 5px 10px rgba(0,0,0, 0.6) */
+}
+
+#socialIcons{
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    /* background-color: aliceblue; */
+}
+#socialIcons img{
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+
+
+#navBar3{
+    width: 80%;
+    background-color: rgb(0,188,213);
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2%;
+    padding-block: 5px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    /* box-shadow: 0px 5px 10px rgba(0,0,0, 0.6) */
+}
+
+#navBar4{
+    width: 80%;
+    background-color: rgb(170,71,188);
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2%;
+    padding-block: 5px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    /* box-shadow: 0px 5px 10px rgba(0,0,0, 0.6) */
+}
+#navBar5{
+    width: 80%;
+    background-color: rgb(63,81,181);
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2%;
+    padding-block: 5px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    /* box-shadow: 0px 5px 10px rgba(0,0,0, 0.6) */
+}
+
+#navBar6{
+    width: 80%;
+    background-color: rgb(249,187,208);
+    color: #000;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2%;
+    padding-block: 5px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    /* box-shadow: 0px 5px 10px rgba(0,0,0, 0.6) */
+}
+
+#navBar6 li a {
+    color: #000;
+}
+
+#navBar7{
+    width: 80%;
+    background-color: rgb(211,47,46);
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2%;
+    padding-block: 5px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    /* box-shadow: 0px 5px 10px rgba(0,0,0, 0.6) */
+}
+
+#navBar7 #navbarRight input{
+    /* background-color: aquamarine; */
+    height: 27px;
+}
+
+
+#navBar7 form button{ 
+    border: 2px solid #fff; 
+    background-color: transparent;
+    color: #fff;
+    padding-block: 3.5px;
+    padding-inline: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#navBar8{
+    width: 80%;
+    background-color: rgb(28,36,49);
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2%;
+    padding-block: 5px;
+    border-radius: 2px;
+    /* box-shadow: 0px 5px 10px rgba(0,0,0, 0.6) */
+}
+
+
+
+/* Link Buttons to other files */
+
+.buttons{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 25px;
+    padding-inline: 20%;
+}
+
+.buttons a{
+    padding: 5px 10px;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.buttons a:hover{
+    background-color: rgb(52, 134, 136);
+}
